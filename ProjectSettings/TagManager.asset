@@ -53,3 +53,6 @@ TagManager:
   - name: mata
     uniqueID: 588927691
     locked: 0
+  - name: coin
+    uniqueID: 3859481269
+    locked: 0
