@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LevelLoader.cs" />
     <Compile Include="Assets\Script\Coin.cs" />
+    <Compile Include="Assets\Script\CoinScore.cs" />
+    <Compile Include="Assets\Script\Grounded.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
