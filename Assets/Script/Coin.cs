@@ -11,6 +11,7 @@ public class Coin : MonoBehaviour
             print("coin diambil");
             Destroy(gameObject);
             CoinScore.hitungCoin += 50;
+            FindObjectOfType<AudioManager>().Play("Coin");
         }
     }
 }

@@ -63,11 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\LevelLoader.cs" />
     <Compile Include="Assets\Script\Coin.cs" />
     <Compile Include="Assets\Script\CoinScore.cs" />
     <Compile Include="Assets\Script\Grounded.cs" />
+    <Compile Include="Assets\Script\Level1.cs" />
+    <Compile Include="Assets\Script\Level2.cs" />
     <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Sound.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/MATERI KULIAH/Kuliah/Semester 6/Komputasi Multimedia(P Unggul)/uts/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

@@ -23,8 +23,11 @@ public class Grounded : MonoBehaviour
         {
             player.GetComponent<Player>().isGrounded = true;
         }else if (collision.collider.tag == "Obstacle"){
+            FindObjectOfType<AudioManager>().Play("Obstacle");
             print("Red Runner is dead");
             Destroy(player);
+            
+            Application.LoadLevel(0);
         }
     }
 

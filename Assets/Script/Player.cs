@@ -6,7 +6,8 @@ public class Player : MonoBehaviour
 {
     public float speed = 5f;
     public bool isGrounded = false;
-
+    public static AudioClip jump;
+    static AudioClip audioSrc;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,9 @@ public class Player : MonoBehaviour
         transform.position += movement * Time.deltaTime * speed;
         //transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+        jump = Resources.Load<AudioClip>("jump");
+
+  
     }
 
     void Jump()
